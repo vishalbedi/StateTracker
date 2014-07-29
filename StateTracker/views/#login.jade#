@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  hi Sign In..
+  form(id='loginform' action='/login')
+    input(type='text',placeholder='username',class='login', name='username')
+    input(type='text',placeholder='username',class='login', name='password')
